@@ -1,0 +1,25 @@
+<div class = "container">
+  <div class = "row">
+    <label class = "col-md-2" control-label>Activity</label>
+    <div class = "col-md-6" form-group>
+      <input class = "form-control" placeholder = "exercise activity" [(ngModel)] = "currentExercise.activity">
+    </div>
+  </div>
+  <div class = "row">
+    <label class = "col-md-2" control-label>Minutes</label>
+    <div class = "col-md-6" form-group>
+      <input class = "form-control" placeholder = "exercise minutes" [(ngModel)] = "currentExercise.minutes">
+    </div>
+  </div>
+  <div class = "row">
+    <label class = "col-md-2" control-label>Completed?</label>
+    <div class = "col-md-6" form-group>
+      <input type = "checkbox" [(ngModel)] = "currentExercise.completed"> 
+  </div>
+  <div class = "row">
+    <div class = "col-md-2"></div>
+    <div class = "col-md-6">
+      <button class = "btn btn-primary" (click) = "addExercise()">Add</button>
+    </div>
+  </div>
+</div>

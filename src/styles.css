@@ -1,0 +1,9 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+    background-color: lightblue;
+    background-image: url("https://image.freepik.com/free-photo/fitness-concept-with-exercise-equipment-wooden-background_11304-659.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

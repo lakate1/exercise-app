@@ -1,0 +1,9 @@
+.container {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.form-control {
+    font-weight: bold;
+    font-size: 15px;
+}

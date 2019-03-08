@@ -1,0 +1,16 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Activity</th>
+      <th>Minutes</th>
+      <th>Completed?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let exercise of exercises">
+    <td>{{exercise.activity}}</td>
+    <td>{{exercise.minutes}}</td>
+    <td>{{exercise.completed ? "Yes" : "No"}}</td>
+    </tr>
+  </tbody>
+</table>
