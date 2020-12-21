@@ -11,7 +11,7 @@ import { HeaderComponent } from './header/header.component';
     AppComponent,
     ExerciseFormComponent,
     ExerciseListComponent,
-    HeaderComponent
+    HeaderComponent,
   ],
   imports: [
     BrowserModule, FormsModule
